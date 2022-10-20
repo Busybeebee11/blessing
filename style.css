@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: aliceblue;
+}
+
+main {
+    width: 95%;
+    margin: 0px auto;
+    padding: 20px;
+    color: #363333;
+}
+
+.about-me h2 {
+    margin-bottom: 10px;
+
+}
+
+.about-me p {
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+.skills, .other-skills, .hobbies {
+    margin-bottom: 20px;
+}
+
+.skills h3, .other-skills h3, .hobbies h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.skills p, .other-skills p, .hobbies p {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+span {
+    color: #4d4df2
+}
+
+.ul p {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+ul {
+    list-style: none;
+    margin-left: 24px;
+}
+
+ul li {
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+ul li::before {
+    content: "\2022";
+    color: #ee0707;
+    font-weight: bold;
+    display: inline-block;
+    width: 8px;
+    margin-right: 6px;
+}
